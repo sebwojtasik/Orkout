@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "hello-world",
-    "slug": "hello-world",
-    "version": "1.0.0",
+    "name": "Orkout",
+    "slug": "orkout",
+    "version": "0.1.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,20 +13,26 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.sebastianwojtasik.orkout",
+      "versionCode": 2,
+      "permissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#FFFFFF"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }

@@ -70,11 +70,9 @@ function WorkoutEndScreen({ navigation }) {
           60}{' '}
         seconds
       </Text>
-      <Button
-        text="Finish"
-        isOutlined
-        callback={() => navigation.navigate('Home')}
-      />
+      <Button isOutlined callback={() => navigation.navigate('Home')}>
+        Finish
+      </Button>
     </View>
   );
 }

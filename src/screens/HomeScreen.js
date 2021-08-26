@@ -28,12 +28,10 @@ function HomeScreen({ navigation }) {
       <Text style={{ fontSize: 24, color: colors.font }}>
         {settings.restDuration} seconds rest, {settings.setsNumber} sets
       </Text>
-      <Button
-        text="Settings"
-        callback={() => navigation.navigate('Settings')}
-        isOutlined
-      />
-      <Button text="Start" callback={() => navigation.navigate('Timer')} />
+      <Button callback={() => navigation.navigate('Settings')} isOutlined>
+        Settings
+      </Button>
+      <Button callback={() => navigation.navigate('Timer')}>Start</Button>
     </View>
   );
 }

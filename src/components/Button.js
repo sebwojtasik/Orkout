@@ -11,7 +11,7 @@ function Button(props) {
         style={
           props.isOutlined ? styles.buttonOutlinedText : styles.buttonText
         }>
-        {props.text}
+        {props.children}
       </Text>
     </Pressable>
   );
